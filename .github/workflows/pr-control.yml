@@ -12,3 +12,5 @@ on:
 jobs:
     accept-pr-staging-control:
       uses: phtrungorg/test-app/.github/workflows/pr-control.yml@main
+      secrets:
+        ORG_TOKEN: ${{ secrets.ORG_TOKEN }}
