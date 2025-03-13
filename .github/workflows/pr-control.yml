@@ -14,3 +14,4 @@ jobs:
       uses: phtrungorg/test-app/.github/workflows/pr-control.yml@main
       secrets:
         ORG_TOKEN: ${{ secrets.ORG_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
