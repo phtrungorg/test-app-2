@@ -10,5 +10,5 @@ on:
       - 'staging'
       - 'release/OAM-[0-9]+'
 jobs:
-    call-reusable:
+    accept-pr-staging-control:
       uses: phtrungorg/test-app/.github/workflows/pr-control.yml@main
