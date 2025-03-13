@@ -12,4 +12,4 @@ on:
       - 'release/OAM-[0-9]+'
 jobs:
     call-reusable:
-      uses: https://github.com/phtrungorg/test-app/.github/workflows/pr-control.yml@main
+      uses: phtrungorg/test-app/.github/workflows/pr-control.yml@main
